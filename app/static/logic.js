@@ -12,7 +12,7 @@ function getSpawnRate(level) {
 }
 
 function getBaseSpeed(level) {
-    return 2 + level * 0.4;
+    return 10;
 }
 
 function clampX(x, width, canvasWidth) {
